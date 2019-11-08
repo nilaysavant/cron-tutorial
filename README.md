@@ -44,6 +44,12 @@
 0 2 9 11 * /path/to.sh | ts &>> /path/to.log
 ```
 
+- You'll need `ts` for timestamps. Install it using:
+
+    ```bash
+    sudo apt install moreutils
+    ```
+
 - The paths need to be `full paths` and **not** *relative*.
 
 - `&>>` will append to the log file.
